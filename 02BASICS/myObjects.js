@@ -1,9 +1,14 @@
-var User = {
-    name: "gayle",
-    Enumerator: "email@email.com",
-    isActive: true
+"use strict";
+// const User = {
+//     name: "gayle",
+//     Enumerator: "email@email.com",
+//     isActive: true
+// }
+Object.defineProperty(exports, "__esModule", { value: true });
+var myUser = {
+    _id: '123',
+    name: 'h',
+    email: "g@g",
+    isActive: false,
 };
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
-}
-createUser();
+myUser.email = "g@g.com";
